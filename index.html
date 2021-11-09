@@ -7,15 +7,9 @@
     <meta name="description" content="Complete interactive 3D scene demo made in Unity and exported to WebXR with the WebXR template of the Unity WebXR Export">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
-    <script src="TemplateData/html5-qrcode.min.js"></script>
-
-
   </head>
   <body>
-    <div style="width: 500px; margin: 0 auto;" id="reader" ></div>
-
-    <div id="unity-container" hidden>
+    <div id="unity-container">
       <div id="unity-canvas-container">
         <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
       </div>
@@ -28,57 +22,12 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <button id="entervr" value="Enter VR" disabled>VR</button>
-        <button id="enterar" value="Enter AR" disabled>SCAN QR</button>
+        <button id="enterar" value="Enter AR" disabled>AR</button>
         <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
         <div id="unity-build-title">Unity WebXR Export</div>
       </div>
     </div>
-    <div id="output"></div>
     <script>
-      function onScanSuccess(decodedText, decodedResult) {
-        console.log(`Code scanned = ${decodedText}`, decodedResult);
-        var output = document.getElementById('output');
-        output.innerHTML = decodedText;
-    }
-    var html5QrcodeScanner = new Html5QrcodeScanner(
-        "reader", { fps: 10, qrbox: 250 });
-    html5QrcodeScanner.render(onScanSuccess);
-
-    // This method will trigger user permissions
-Html5Qrcode.getCameras().then(devices => {
-  /**
-   * devices would be an array of objects of type:
-   * { id: "id", label: "label" }
-   */
-  if (devices && devices.length) {
-    var cameraId = devices[0].id;
-    // .. use this to start scanning.
-  }
-}).catch(err => {
-  // handle err
-});
-
-
-const html5QrCode = new Html5Qrcode(/* element id */ "reader");
-html5QrCode.start(
-  cameraId, 
-  {
-    fps: 10,    // Optional, frame per seconds for qr code scanning
-    qrbox: 250  // Optional, if you want bounded box UI
-  },
-  (decodedText, decodedResult) => {
-    // do something when code is read
-  },
-  (errorMessage) => {
-    // parse error, ignore it.
-  })
-.catch((err) => {
-  // Start failed, handle it.
-});
-
-// If you want to prefer back camera
-html5QrCode.start({ facingMode: "environment" }, config, qrCodeSuccessCallback); 
-  
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/indoor_nav.loader.js";
       var config = {
@@ -98,8 +47,6 @@ html5QrCode.start({ facingMode: "environment" }, config, qrCodeSuccessCallback);
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var unityInstance = null;
-      //var gameInstance = UnityLoader.instantiate("gameContainer", loaderUrl, {onProgress: UnityProgress});
-
       
 
       canvasContainer.style.width = "720px";
@@ -109,21 +56,21 @@ html5QrCode.start({ facingMode: "environment" }, config, qrCodeSuccessCallback);
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
-        config['webglContextAttributes'] = {"preserveDrawingBuffer": true};
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((instance) => {
           unityInstance = instance;
           loadingBar.style.display = "none";
-          
           if (fullscreenButton)
           {
             fullscreenButton.onclick = () => {
               unityInstance.SetFullscreen(1);
             };
           }
+          unityInstance.Module.WebXR.toggleAR();
+
         }).catch((message) => {
-          alert("message: "+message);
+          alert(message);
         });
       };
       document.body.appendChild(script);
@@ -139,36 +86,11 @@ html5QrCode.start({ facingMode: "environment" }, config, qrCodeSuccessCallback);
       }, false);
 
       enterARButton.addEventListener('click', function (event) {
-
         unityInstance.Module.WebXR.toggleAR();
       }, false);
       enterVRButton.addEventListener('click', function (event) {
         unityInstance.Module.WebXR.toggleVR();
       }, false);
-      
-      function screenshotToDataUrl(){
-        let div =
-                document.getElementById('unity-container');
-        //var gl = canvas.getContext('webgl');
-            // Use the html2canvas
-            // function to take a screenshot
-            // and append it
-            // to the output div
-            html2canvas(div).then(
-                function (canvas) {
-                    
-                   // var DataURL = canvas.toDataURL("image/png");
-                    var a = document.createElement('a');
-                    a.href = canvas.toDataURL("image/png");
-                    a.download = 'somefilename.png';
-                    a.click();
-                    //alert(DataURL);
-                    //qrcode.callback = read;
-                    //qrcode.decode(DataURL);
-                    
-                })
-      }
-      
     </script>
   </body>
 </html>
