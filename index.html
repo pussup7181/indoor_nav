@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Unity WebXR Export</title>
+    <title>Unity WebGL Player | Indoor Navigation</title>
     <meta name="description" content="Complete interactive 3D scene demo made in Unity and exported to WebXR with the WebXR template of the Unity WebXR Export">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
@@ -40,8 +40,8 @@
         frameworkUrl: buildUrl + "/indoor_nav.framework.js",
         codeUrl: buildUrl + "/indoor_nav.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "De-Panther",
-        productName: "Unity WebXR Export",
+        companyName: "NCRTC",
+        productName: "Indoor Navigation",
         productVersion: "0.1",
       };
 
@@ -52,7 +52,7 @@
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var unityInstance = null;
-      
+      var QR = null;
 
       canvasContainer.style.width = "720px";
       canvasContainer.style.height = "1280px";
@@ -103,6 +103,9 @@
         console.log(`Code scanned = ${decodedText}`, decodedResult);
         var output = document.getElementById('output');
         output.innerHTML = decodedText;
+        QR = decodedText;
+        StopScan();
+
     }
     var html5QrcodeScanner = new Html5QrcodeScanner(
         "reader", { fps: 10, qrbox: 250 });
@@ -144,7 +147,35 @@ html5QrCode.start(
 // If you want to prefer back camera
 html5QrCode.start({ facingMode: "environment" }, config, qrCodeSuccessCallback); 
   
-    
+//scanScene
+function StartScan(){
+  console.log("Loaded");
+        var container = document.querySelector("#unity-container");
+        container.style.visibility = "hidden";
+        var reader = document.querySelector("#reader");
+        //reader.style.display = "block";
+        reader.style.visibility = "visible";
+}
+function StopScan(){
+  console.log("Loaded");
+        var container = document.querySelector("#unity-container");
+        container.style.visibility = "visible";
+        var reader = document.querySelector("#reader");
+        reader.style.visibility = "hidden";
+        //reader.style.display = "none";
+}
+   function getQR(){
+     if(QR!=null){
+      console.log(QR); 
+      return QR;
+     }
+     else return null;
+      
+   }
+
+   function ToggleARHTML(){
+    unityInstance.Module.WebXR.toggleAR();
+   }
     </script>
   </body>
 </html>
