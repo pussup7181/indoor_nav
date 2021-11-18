@@ -3,17 +3,33 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Indoor Navigation</title>
+    <title>NCRTC | Indoor Navigation</title>
     <meta name="description" content="Complete interactive 3D scene demo made in Unity and exported to WebXR with the WebXR template of the Unity WebXR Export">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="TemplateData/main.css">
     <script src="TemplateData/html5-qrcode.min.js"></script>
+    <script src="TemplateData/highlight.min.js"></script>
+
 
   </head>
   <body>
 
-    <div style="width: 720px; height: 1280px; margin: 0 auto; visibility: hidden;" id="reader"></div>
-    <div id="unity-container">
+    <div class="container" id="QRScanner">
+      <div class="row">
+        <div style="text-align: center;margin-bottom: 20px;">
+          <div id="reader" style="display: block;"></div>
+          <div class="empty"></div>
+               <div id="scanned-result"></div>
+               <div>
+                    <select id="facingMode" hidden>
+                        <option value="environment">environment</option>
+                    </select>
+               </div>
+        </div>
+      </div>
+    </div>
+        <div id="unity-container">
       <div id="unity-canvas-container">
         <canvas id="unity-canvas" style="width: 100%; height: 100%;"></canvas>
       </div>
@@ -24,11 +40,8 @@
         </div>
       </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
-        <button id="entervr" value="Enter VR" disabled>VR</button>
         <button id="enterar" value="Enter AR" disabled>AR</button>
-        <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
-        <div id="unity-build-title">Unity WebXR Export</div>
+        <div id="unity-build-title">Indoor Navigation NCRTC</div>
       </div>
     </div>
     <div id="output"></div>
@@ -80,89 +93,80 @@
       document.body.appendChild(script);
 
       let enterARButton = document.getElementById('enterar');
-      let enterVRButton = document.getElementById('entervr');
 
       document.addEventListener('onARSupportedCheck', function (event) {
         enterARButton.disabled = !event.detail.supported;
       }, false);
-      document.addEventListener('onVRSupportedCheck', function (event) {
-        enterVRButton.disabled = !event.detail.supported;
-      }, false);
+      
 
       enterARButton.addEventListener('click', function (event) {
         unityInstance.Module.WebXR.toggleAR();
       }, false);
-      enterVRButton.addEventListener('click', function (event) {
-        unityInstance.Module.WebXR.toggleVR();
-      }, false);
+      
 
 
 
     //Scanner
-    function onScanSuccess(decodedText, decodedResult) {
-        console.log(`Code scanned = ${decodedText}`, decodedResult);
-        var output = document.getElementById('output');
-        output.innerHTML = decodedText;
-        QR = decodedText;
-        StopScan();
-
+    var scanning = false;
+var scanningRequested = false;
+var html5qrcode = new Html5Qrcode("reader", true);
+function docReady(fn) {
+    // see if DOM is already available
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        // call on next available tick
+        setTimeout(fn, 1);
+    } else {
+        document.addEventListener("DOMContentLoaded", fn);
     }
-    var html5QrcodeScanner = new Html5QrcodeScanner(
-        "reader", { fps: 10, qrbox: 250 });
-    html5QrcodeScanner.render(onScanSuccess);
+}
+function startScanning(facingMode) {
+    console.log(facingMode)
+    var results = document.getElementById('scanned-result');
+	var lastMessage;
+	var codesFound = 0;
+	function onScanSuccess(qrCodeMessage) {
+		//Result
+    console.log(qrCodeMessage);
+    QR = qrCodeMessage;
+    console.log(QR);
+    StopScan();
 
-    // This method will trigger user permissions
-Html5Qrcode.getCameras().then(devices => {
-  /**
-   * devices would be an array of objects of type:
-   * { id: "id", label: "label" }
-   */
-  if (devices && devices.length) {
-    var cameraId = devices[0].id;
-    // .. use this to start scanning.
-  }
-}).catch(err => {
-  // handle err
+	}
+    return html5qrcode.start(
+        { facingMode: facingMode },
+        { fps: 10, qrbox: 250 },
+        onScanSuccess);
+}
+function stopScanning() {
+    return html5qrcode.stop();
+}
+docReady(function() {
+    hljs.initHighlightingOnLoad();
+    
 });
 
-
-const html5QrCode = new Html5Qrcode(/* element id */ "reader");
-html5QrCode.start(
-  cameraId, 
-  {
-    fps: 10,    // Optional, frame per seconds for qr code scanning
-    qrbox: 250,  // Optional, if you want bounded box UI
-    videoConstraints: { facingMode: { exact: "environment" } }
-  },
-  (decodedText, decodedResult) => {
-    // do something when code is read
-  },
-  (errorMessage) => {
-    // parse error, ignore it.
-  })
-.catch((err) => {
-  // Start failed, handle it.
-});
-
-// If you want to prefer back camera
-html5QrCode.start({ facingMode: "environment" }, config, qrCodeSuccessCallback); 
-  
 //scanScene
 function StartScan(){
-  console.log("Loaded");
+        startScanning("environment")
+
+        console.log("Loaded");
         var container = document.querySelector("#unity-container");
         container.style.visibility = "hidden";
-        var reader = document.querySelector("#reader");
+        var reader = document.querySelector("#QRScanner");
         //reader.style.display = "block";
         reader.style.visibility = "visible";
 }
 function StopScan(){
-  console.log("Loaded");
+        stopScanning();
         var container = document.querySelector("#unity-container");
         container.style.visibility = "visible";
-        var reader = document.querySelector("#reader");
+        var reader = document.querySelector("#QRScanner");
         reader.style.visibility = "hidden";
         //reader.style.display = "none";
+        setTimeout(function(){
+            console.log("Toggling..");
+            unityInstance.Module.WebXR.toggleAR();
+        }, 4500);
 }
    function getQR(){
      if(QR!=null){
@@ -172,10 +176,11 @@ function StopScan(){
      else return null;
       
    }
-
-   function ToggleARHTML(){
-    unityInstance.Module.WebXR.toggleAR();
+   function setQR(){
+     QR = null;
    }
+
+   
     </script>
   </body>
 </html>
