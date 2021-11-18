@@ -26,6 +26,7 @@
                         <option value="environment">environment</option>
                     </select>
                </div>
+               <button id="toggleAR" style="width: 400px; height: 150px; margin-top: 20px; font-size: 50px;transform: translate(75%,0); display: none;">Scan</button>
         </div>
       </div>
     </div>
@@ -66,6 +67,8 @@
       var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var unityInstance = null;
       var QR = null;
+      var QR1 = null;
+      var ARbutton = document.querySelector('#toggleAR');
 
       canvasContainer.style.width = "720px";
       canvasContainer.style.height = "1280px";
@@ -103,7 +106,12 @@
         unityInstance.Module.WebXR.toggleAR();
       }, false);
       
+      ARbutton.addEventListener('click', function(){
+        QR=QR1;
+        unityInstance.Module.WebXR.toggleAR();
+        setTimeout(StopScan(),1000);
 
+      },false);
 
 
     //Scanner
@@ -127,14 +135,17 @@ function startScanning(facingMode) {
 	function onScanSuccess(qrCodeMessage) {
 		//Result
     console.log(qrCodeMessage);
-    QR = qrCodeMessage;
-    console.log(QR);
-    StopScan();
+    QR1 = qrCodeMessage;
+    console.log(QR1);
+
+    ARbutton.style.display = "block";
+    
+    //StopScan();
 
 	}
     return html5qrcode.start(
         { facingMode: facingMode },
-        { fps: 10, qrbox: 250 },
+        { fps: 10, qrbox: 400 },
         onScanSuccess);
 }
 function stopScanning() {
@@ -147,8 +158,7 @@ docReady(function() {
 
 //scanScene
 function StartScan(){
-        startScanning("environment")
-
+  startScanning("environment")
         console.log("Loaded");
         var container = document.querySelector("#unity-container");
         container.style.visibility = "hidden";
@@ -163,10 +173,7 @@ function StopScan(){
         var reader = document.querySelector("#QRScanner");
         reader.style.visibility = "hidden";
         //reader.style.display = "none";
-        setTimeout(function(){
-            console.log("Toggling..");
-            unityInstance.Module.WebXR.toggleAR();
-        }, 4500);
+        
 }
    function getQR(){
      if(QR!=null){
