@@ -1,0 +1,1480 @@
+{
+  "SeatNumber" : {
+    "FC1" : {
+      "designation" : "GGM/Contract & Dispute Resolution",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Dhanesh Gupta",
+      "seatNumber" : "FC1"
+    },
+    "FC10" : {
+      "designation" : "GGM/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Raja Ram Prasad",
+      "seatNumber" : "FC10"
+    },
+    "FC11" : {
+      "designation" : "GGM/HR",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Manoj Singh",
+      "seatNumber" : "FC11"
+    },
+    "FC2" : {
+      "designation" : "GGM/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Sunil Bhasker",
+      "seatNumber" : "FC2"
+    },
+    "FC3" : {
+      "designation" : "GGM/Electrical",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ved Pal",
+      "seatNumber" : "FC3"
+    },
+    "FC4" : {
+      "designation" : "Multi Model Expert",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Samir Kumar Sharma",
+      "seatNumber" : "FC4"
+    },
+    "FC5" : {
+      "designation" : "GGM/Civil",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Raj Kumar Singh",
+      "seatNumber" : "FC5"
+    },
+    "FC6" : {
+      "designation" : "Chief Engineer/General",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Yogesh Chandra Srivastava",
+      "seatNumber" : "FC6"
+    },
+    "FC7" : {
+      "designation" : "GGM/S&T-I",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Kaushal Kumar",
+      "seatNumber" : "FC7"
+    },
+    "FC8" : {
+      "designation" : "GGM/S&T-II",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Dayanand",
+      "seatNumber" : "FC8"
+    },
+    "FC9" : {
+      "designation" : "Converted To Meeting Room",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FC9"
+    },
+    "FE1" : {
+      "designation" : "DGM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Abhineet Singh",
+      "seatNumber" : "FE1"
+    },
+    "FE10" : {
+      "designation" : "DGM/Fin./CNDR",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE10"
+    },
+    "FE11" : {
+      "designation" : "DGM/Electrical",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Abhinesh Singh",
+      "seatNumber" : "FE11"
+    },
+    "FE12" : {
+      "designation" : "AGM/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Dhirendra Mehrotra",
+      "seatNumber" : "FE12"
+    },
+    "FE13" : {
+      "designation" : "Sr. DGM/Proc-II",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Saurabh Kohli",
+      "seatNumber" : "FE13"
+    },
+    "FE14" : {
+      "designation" : "Reserved for DMG/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE14"
+    },
+    "FE15" : {
+      "designation" : "DGM/Fin./Proc.",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. P. Mahesh Kumar",
+      "seatNumber" : "FE15"
+    },
+    "FE16" : {
+      "designation" : "Reserved for DMG/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE16"
+    },
+    "FE17" : {
+      "designation" : "Reserved for DMG/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE17"
+    },
+    "FE18" : {
+      "designation" : "GM/Elect.",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. R.D.Gupta",
+      "seatNumber" : "FE18"
+    },
+    "FE19" : {
+      "designation" : "Sr. DGM/Electrical",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Vijay Pal Singh",
+      "seatNumber" : "FE19"
+    },
+    "FE2" : {
+      "designation" : "Sr. DGM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Gyan Prakash Sharma",
+      "seatNumber" : "FE2"
+    },
+    "FE20" : {
+      "designation" : "Project Manager/JFPR",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Col. Jagdish Prasad",
+      "seatNumber" : "FE20"
+    },
+    "FE21" : {
+      "designation" : "DGM/Solar",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Satish Kumar Moza",
+      "seatNumber" : "FE21"
+    },
+    "FE23" : {
+      "designation" : "DGM/ARS",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Rashid Ali Khan",
+      "seatNumber" : "FE23"
+    },
+    "FE24" : {
+      "designation" : "DGM/Env.",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE24"
+    },
+    "FE25" : {
+      "designation" : "DGM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Naveen Pandey",
+      "seatNumber" : "FE25"
+    },
+    "FE26" : {
+      "designation" : "Dy.CE/Building Construction",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. N.K. Srivastava",
+      "seatNumber" : "FE26"
+    },
+    "FE27" : {
+      "designation" : "Sr. DGM/Land Acquisition",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Subodh Singh",
+      "seatNumber" : "FE27"
+    },
+    "FE28" : {
+      "designation" : "DGM/Civil",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. K. A. Singhal ",
+      "seatNumber" : "FE28"
+    },
+    "FE29" : {
+      "designation" : "DGM.QA&C",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Dhruva Choudhary",
+      "seatNumber" : "FE29"
+    },
+    "FE3" : {
+      "designation" : "Sr. DGM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Rishabh Gautam",
+      "seatNumber" : "FE3"
+    },
+    "FE31" : {
+      "designation" : "DGM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Amir Abbas",
+      "seatNumber" : "FE31"
+    },
+    "FE32" : {
+      "designation" : "Reserved for DGM/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE32"
+    },
+    "FE33" : {
+      "designation" : "Reserved for JFPR",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE33"
+    },
+    "FE35" : {
+      "designation" : "Advisor",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. K. Krishnan",
+      "seatNumber" : "FE35"
+    },
+    "FE36" : {
+      "designation" : "Reserved for DGM/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE36"
+    },
+    "FE37" : {
+      "designation" : "Reserved for DGM/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE37"
+    },
+    "FE38" : {
+      "designation" : "DGM/HR",
+      "floor" : "FIRST FLOOR",
+      "name" : "Smt. Ajita Verma",
+      "seatNumber" : "FE38"
+    },
+    "FE39" : {
+      "designation" : "DGM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Nitin Kulhare",
+      "seatNumber" : "FE39"
+    },
+    "FE4" : {
+      "designation" : "AGM/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Smt. Ritu Singh",
+      "seatNumber" : "FE4"
+    },
+    "FE40" : {
+      "designation" : "AGM/AFC",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Vindhyavasini Rai",
+      "seatNumber" : "FE40"
+    },
+    "FE41" : {
+      "designation" : "DGM/Netra",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Abhishek Kumar",
+      "seatNumber" : "FE41"
+    },
+    "FE6" : {
+      "designation" : "Sr. DGM/Labour Welfare",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Pramod Kumar",
+      "seatNumber" : "FE6"
+    },
+    "FE7" : {
+      "designation" : "AGM/Arbitration",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Raj Kumar",
+      "seatNumber" : "FE7"
+    },
+    "FE8" : {
+      "designation" : "DGM/Legal",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Gandharv Makkar",
+      "seatNumber" : "FE8"
+    },
+    "FE9" : {
+      "designation" : "Sr. DGM/System/CNDR",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FE9"
+    },
+    "FW1" : {
+      "designation" : "Reserved for TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW1"
+    },
+    "FW10" : {
+      "designation" : "AM/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. D. K. Maurya",
+      "seatNumber" : "FW10"
+    },
+    "FW11" : {
+      "designation" : "AM/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Deepak Kumar Tanwar",
+      "seatNumber" : "FW11"
+    },
+    "FW12" : {
+      "designation" : "Executive/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Arun Kumar",
+      "seatNumber" : "FW12"
+    },
+    "FW13" : {
+      "designation" : "E-Tendering (NIC)",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ajit Singh Tomar",
+      "seatNumber" : "FW13"
+    },
+    "FW14" : {
+      "designation" : "AM/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Anirudh Kuksal",
+      "seatNumber" : "FW14"
+    },
+    "FW15" : {
+      "designation" : "Manager/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Prasoon Krishna",
+      "seatNumber" : "FW15"
+    },
+    "FW16" : {
+      "designation" : "TA/Civil",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Vishal, CNDR Cell",
+      "seatNumber" : "FW16"
+    },
+    "FW17" : {
+      "designation" : "TA/Civil",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Sumit, Attached with GGM/Proc.",
+      "seatNumber" : "FW17"
+    },
+    "FW18" : {
+      "designation" : "Reserved for TA to GGM/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW18"
+    },
+    "FW19" : {
+      "designation" : "AM/Fin.",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Amit",
+      "seatNumber" : "FW19"
+    },
+    "FW2" : {
+      "designation" : "Reserved for TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW2"
+    },
+    "FW20" : {
+      "designation" : "GA/Abitration",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Tuvansh Mody",
+      "seatNumber" : "FW20"
+    },
+    "FW21" : {
+      "designation" : "TA to GGM/Procurement",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW21"
+    },
+    "FW22" : {
+      "designation" : "SA",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Kanchan Singh, Attached with GGM/CNDR",
+      "seatNumber" : "FW22"
+    },
+    "FW23" : {
+      "designation" : "TA/Civil",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Praveen, Attached with AGM/Arbt.",
+      "seatNumber" : "FW23"
+    },
+    "FW24" : {
+      "designation" : "Reserved for Procurement Cell",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW24"
+    },
+    "FW25" : {
+      "designation" : "Reserved for Procurement Cell",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW25"
+    },
+    "FW26" : {
+      "designation" : "Reserved for Procurement Cell",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW26"
+    },
+    "FW27" : {
+      "designation" : "Reserved for Procurement Cell",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW27"
+    },
+    "FW28" : {
+      "designation" : "Reserved for Procurement Cell",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW28"
+    },
+    "FW3" : {
+      "designation" : "Reserved for TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW3"
+    },
+    "FW31" : {
+      "designation" : "GA/Transport",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Himanshu Attry",
+      "seatNumber" : "FW31"
+    },
+    "FW32" : {
+      "designation" : "TA to GGM/Elect.",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ashwani Tyagi",
+      "seatNumber" : "FW32"
+    },
+    "FW33" : {
+      "designation" : "TA/Elect.",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ravi Kumar",
+      "seatNumber" : "FW33"
+    },
+    "FW34" : {
+      "designation" : "AM/Elect.",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. D.K.Rastogi",
+      "seatNumber" : "FW34"
+    },
+    "FW35" : {
+      "designation" : "TA/JFPR",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ravi Dutt",
+      "seatNumber" : "FW35"
+    },
+    "FW36" : {
+      "designation" : "Reserved for AM/Solar",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW36"
+    },
+    "FW37" : {
+      "designation" : "Consultant/Rajbhasha",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Rakesh Kumar Dwivedi",
+      "seatNumber" : "FW37"
+    },
+    "FW38" : {
+      "designation" : "Reserved for TA/IT for BMRCL Support",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW38"
+    },
+    "FW39" : {
+      "designation" : "TA to GGM/S&T-II",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Jitendra Pandey",
+      "seatNumber" : "FW39"
+    },
+    "FW4" : {
+      "designation" : "AM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Mandeep Chowdhury",
+      "seatNumber" : "FW4"
+    },
+    "FW40" : {
+      "designation" : "TA/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Bhag Chand Jangir",
+      "seatNumber" : "FW40"
+    },
+    "FW41" : {
+      "designation" : "XEN/Civil",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Arun Saini",
+      "seatNumber" : "FW41"
+    },
+    "FW42" : {
+      "designation" : "XEN/Civil",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Mohd. Shahbaz Alam",
+      "seatNumber" : "FW42"
+    },
+    "FW43" : {
+      "designation" : "JE-II (Attached with CE/G)",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Priyanka Jaiswal",
+      "seatNumber" : "FW43"
+    },
+    "FW44" : {
+      "designation" : "TA(Attached with CE/G)",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW44"
+    },
+    "FW45" : {
+      "designation" : "Consultant/Cordination (Attached with CE/G)",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. S. K. Dhawan",
+      "seatNumber" : "FW45"
+    },
+    "FW46" : {
+      "designation" : "TA/Civil",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ashish Doonga",
+      "seatNumber" : "FW46"
+    },
+    "FW47" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Pankaj Kumar Roy",
+      "seatNumber" : "FW47"
+    },
+    "FW48" : {
+      "designation" : "SE/Operation",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Manish Kumar",
+      "seatNumber" : "FW48"
+    },
+    "FW49" : {
+      "designation" : "Manager/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ketan Basra",
+      "seatNumber" : "FW49"
+    },
+    "FW5" : {
+      "designation" : "Power BI Resource (IT)",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW5"
+    },
+    "FW50" : {
+      "designation" : "AM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Ms. Anchal Goyel",
+      "seatNumber" : "FW50"
+    },
+    "FW51" : {
+      "designation" : "EA-I/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Sagar Mal Kumawat",
+      "seatNumber" : "FW51"
+    },
+    "FW52" : {
+      "designation" : "AM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Md. Rehan",
+      "seatNumber" : "FW52"
+    },
+    "FW53" : {
+      "designation" : "AM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Mayank Garg",
+      "seatNumber" : "FW53"
+    },
+    "FW54" : {
+      "designation" : "AM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ojaswi Kumar",
+      "seatNumber" : "FW54"
+    },
+    "FW55" : {
+      "designation" : "AM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Vineet Tiwari",
+      "seatNumber" : "FW55"
+    },
+    "FW56" : {
+      "designation" : "AM/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Keshav Pihal",
+      "seatNumber" : "FW56"
+    },
+    "FW57" : {
+      "designation" : "AM/PSD",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Narendra Meena",
+      "seatNumber" : "FW57"
+    },
+    "FW58" : {
+      "designation" : "TA/S&T",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Nitesh Sharma",
+      "seatNumber" : "FW58"
+    },
+    "FW59" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Abhishek Sharma",
+      "seatNumber" : "FW59"
+    },
+    "FW6" : {
+      "designation" : "Power BI Resource (IT)",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW6"
+    },
+    "FW60" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Sonu Kumar",
+      "seatNumber" : "FW60"
+    },
+    "FW61" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Ms. Jyotirmayi G. V.",
+      "seatNumber" : "FW61"
+    },
+    "FW62" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Manoj Chhimwal",
+      "seatNumber" : "FW62"
+    },
+    "FW63" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ayush Tripathi",
+      "seatNumber" : "FW63"
+    },
+    "FW64" : {
+      "designation" : "Sr. Exe./IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Gopal Sharma",
+      "seatNumber" : "FW64"
+    },
+    "FW65" : {
+      "designation" : "Sr. Exe./IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Anuj Mishra",
+      "seatNumber" : "FW65"
+    },
+    "FW66" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Uttam Kumar",
+      "seatNumber" : "FW66"
+    },
+    "FW67" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Ratnesh",
+      "seatNumber" : "FW67"
+    },
+    "FW68" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Kailash",
+      "seatNumber" : "FW68"
+    },
+    "FW7" : {
+      "designation" : "Manager/Hotriculture",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Bharat Bhushan Sharma",
+      "seatNumber" : "FW7"
+    },
+    "FW71" : {
+      "designation" : "Supporting Staff (JFPR)",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW71"
+    },
+    "FW72" : {
+      "designation" : "Supporting Staff (JFPR)",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW72"
+    },
+    "FW73" : {
+      "designation" : "TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Mohammad Nadeem",
+      "seatNumber" : "FW73"
+    },
+    "FW74" : {
+      "designation" : "Training & OD",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Pankaj Sethi",
+      "seatNumber" : "FW74"
+    },
+    "FW75" : {
+      "designation" : "Reserved for AM/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW75"
+    },
+    "FW76" : {
+      "designation" : "Reserved for Executive/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW76"
+    },
+    "FW77" : {
+      "designation" : "Reserved for Executive/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW77"
+    },
+    "FW78" : {
+      "designation" : "Reserved for TA/IT",
+      "floor" : "FIRST FLOOR",
+      "name" : "",
+      "seatNumber" : "FW78"
+    },
+    "FW8" : {
+      "designation" : "Manager Environment",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. Shambhu Nath",
+      "seatNumber" : "FW8"
+    },
+    "FW9" : {
+      "designation" : "AM/Elect.",
+      "floor" : "FIRST FLOOR",
+      "name" : "Sh. G. P. Singh",
+      "seatNumber" : "FW9"
+    },
+    "GC1" : {
+      "designation" : "GGM/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Arvind Kumar",
+      "seatNumber" : "GC1"
+    },
+    "GE1" : {
+      "designation" : "AM/Admin",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Saket Kr. Singh",
+      "seatNumber" : "GE1"
+    },
+    "GE2" : {
+      "designation" : "CRPO",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Puneet Vats",
+      "seatNumber" : "GE2"
+    },
+    "GE3" : {
+      "designation" : "AGM/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Vishal D. Yagnik",
+      "seatNumber" : "GE3"
+    },
+    "GE4" : {
+      "designation" : "DGM/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. H. S. Mehra",
+      "seatNumber" : "GE4"
+    },
+    "GE5" : {
+      "designation" : "DGM/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Soham Guha",
+      "seatNumber" : "GE5"
+    },
+    "GE6" : {
+      "designation" : "Reserved for DGM/HR for O&M activities",
+      "floor" : "GROUND FLOOR",
+      "name" : "",
+      "seatNumber" : "GE6"
+    },
+    "GW10" : {
+      "designation" : "PR Agency - 2",
+      "floor" : "GROUND FLOOR",
+      "name" : "",
+      "seatNumber" : "GW10"
+    },
+    "GW11" : {
+      "designation" : "PR Agency - 3",
+      "floor" : "GROUND FLOOR",
+      "name" : "",
+      "seatNumber" : "GW11"
+    },
+    "GW12" : {
+      "designation" : "GA/Admin",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Santosh Kr. Verma",
+      "seatNumber" : "GW12"
+    },
+    "GW13" : {
+      "designation" : "Admin",
+      "floor" : "GROUND FLOOR",
+      "name" : "",
+      "seatNumber" : "GW13"
+    },
+    "GW14" : {
+      "designation" : "Admin",
+      "floor" : "GROUND FLOOR",
+      "name" : "",
+      "seatNumber" : "GW14"
+    },
+    "GW15" : {
+      "designation" : "Admin",
+      "floor" : "GROUND FLOOR",
+      "name" : "",
+      "seatNumber" : "GW15"
+    },
+    "GW17" : {
+      "designation" : "AM/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Ms. Arpita Pujara",
+      "seatNumber" : "GW17"
+    },
+    "GW18" : {
+      "designation" : "SA/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Ms. Kiranmayi",
+      "seatNumber" : "GW18"
+    },
+    "GW19" : {
+      "designation" : "SA/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Anjaney Pandey",
+      "seatNumber" : "GW19"
+    },
+    "GW20" : {
+      "designation" : "GA/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Abhishek Singh",
+      "seatNumber" : "GW20"
+    },
+    "GW21" : {
+      "designation" : "Exe./HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Eshank Garg",
+      "seatNumber" : "GW21"
+    },
+    "GW22" : {
+      "designation" : "Exe./HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Ranjit Kr. Nayak",
+      "seatNumber" : "GW22"
+    },
+    "GW23" : {
+      "designation" : "AM/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Ravinder",
+      "seatNumber" : "GW23"
+    },
+    "GW24" : {
+      "designation" : "GA/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Abhilash",
+      "seatNumber" : "GW24"
+    },
+    "GW25" : {
+      "designation" : "GA/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Ms. Divyangna Singh",
+      "seatNumber" : "GW25"
+    },
+    "GW26" : {
+      "designation" : "AM/HR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Ms. Bhumika Maheshwari",
+      "seatNumber" : "GW26"
+    },
+    "GW27" : {
+      "designation" : "EA-II/Electrical",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Rajendra Kumar",
+      "seatNumber" : "GW27"
+    },
+    "GW35" : {
+      "designation" : "Security",
+      "floor" : "GROUND FLOOR",
+      "name" : "",
+      "seatNumber" : "GW35"
+    },
+    "GW36" : {
+      "designation" : "Security",
+      "floor" : "GROUND FLOOR",
+      "name" : "",
+      "seatNumber" : "GW36"
+    },
+    "GW4" : {
+      "designation" : "AM/CC",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Shubham Singhal",
+      "seatNumber" : "GW4"
+    },
+    "GW5" : {
+      "designation" : "GA/CC",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Raj Kumar",
+      "seatNumber" : "GW5"
+    },
+    "GW6" : {
+      "designation" : "TA/CPRO",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Abhay Malhan",
+      "seatNumber" : "GW6"
+    },
+    "GW7" : {
+      "designation" : "Sr. Exe/CC",
+      "floor" : "GROUND FLOOR",
+      "name" : "Smt. Swati Sharma",
+      "seatNumber" : "GW7"
+    },
+    "GW8" : {
+      "designation" : "AM/PR",
+      "floor" : "GROUND FLOOR",
+      "name" : "Sh. Rajeev Kr. Choudahary",
+      "seatNumber" : "GW8"
+    },
+    "GW9" : {
+      "designation" : "PR Agency - 1",
+      "floor" : "GROUND FLOOR",
+      "name" : "",
+      "seatNumber" : "GW9"
+    },
+    "SC1" : {
+      "designation" : "GGM/SP",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Sudhir Kumar Sharma",
+      "seatNumber" : "SC1"
+    },
+    "SC2" : {
+      "designation" : "ED/Architect",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Rajesh Kumar",
+      "seatNumber" : "SC2"
+    },
+    "SC3" : {
+      "designation" : "Sr. Advisor/RM&LVC",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Rajiv Datt",
+      "seatNumber" : "SC3"
+    },
+    "SC4" : {
+      "designation" : "GGM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Y. P. Saxena",
+      "seatNumber" : "SC4"
+    },
+    "SC5" : {
+      "designation" : "Reserved for JFPR",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SC5"
+    },
+    "SCH1" : {
+      "designation" : "Managing Director, MD",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Vinay Kumar Singh",
+      "seatNumber" : "SCH1"
+    },
+    "SCH2" : {
+      "designation" : "Chief Vigilance Officer",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SCH2"
+    },
+    "SCH3" : {
+      "designation" : "Director/Finance",
+      "floor" : "SECOND FLOOR",
+      "name" : "Ms. Namita Mehrotra",
+      "seatNumber" : "SCH3"
+    },
+    "SCH4" : {
+      "designation" : "Director/Elect. & RS",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Mahendra Kumar",
+      "seatNumber" : "SCH4"
+    },
+    "SCH5" : {
+      "designation" : "Director/System",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Navneet Kaushik",
+      "seatNumber" : "SCH5"
+    },
+    "SCH6" : {
+      "designation" : "Director/Project",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. A. K. Shrangarya",
+      "seatNumber" : "SCH6"
+    },
+    "SE1" : {
+      "designation" : "OSD",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Rajendra Kumar Sharma",
+      "seatNumber" : "SE1"
+    },
+    "SE10" : {
+      "designation" : "AGM/Safety",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SE10"
+    },
+    "SE11" : {
+      "designation" : "GM/Planning",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Rajat Gosain",
+      "seatNumber" : "SE11"
+    },
+    "SE12" : {
+      "designation" : "DGM/TOD",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Harsh Raj Kumar",
+      "seatNumber" : "SE12"
+    },
+    "SE13" : {
+      "designation" : "Reserved for JFPR",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SE13"
+    },
+    "SE15" : {
+      "designation" : "Reserved for Security Experts",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SE15"
+    },
+    "SE16" : {
+      "designation" : "GM/Finance",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Pramod Kumar Narang",
+      "seatNumber" : "SE16"
+    },
+    "SE17" : {
+      "designation" : "Reserved for Security Experts",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SE17"
+    },
+    "SE18" : {
+      "designation" : "DGM/CS",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Vijay Kumar",
+      "seatNumber" : "SE18"
+    },
+    "SE19" : {
+      "designation" : "AGM/Finance",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. K. Gangadharan",
+      "seatNumber" : "SE19"
+    },
+    "SE2" : {
+      "designation" : "Executive/Procurement",
+      "floor" : "SECOND FLOOR",
+      "name" : "Ms. Kanika",
+      "seatNumber" : "SE2"
+    },
+    "SE20" : {
+      "designation" : "AGM/Finance",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. M. Hannan",
+      "seatNumber" : "SE20"
+    },
+    "SE21" : {
+      "designation" : "DGM/Finance",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Kamal Kumar Chhatwal",
+      "seatNumber" : "SE21"
+    },
+    "SE22" : {
+      "designation" : "Reserved for Dy./CVO",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SE22"
+    },
+    "SE23" : {
+      "designation" : "Asst. Vigilance Officer",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Majid Hussain",
+      "seatNumber" : "SE23"
+    },
+    "SE24" : {
+      "designation" : "AM/CS&P",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Sukhdeep Singh Pandher",
+      "seatNumber" : "SE24"
+    },
+    "SE25" : {
+      "designation" : "Reserved for Manager/Elect. (Attached with Dir./E&RS)",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SE25"
+    },
+    "SE26" : {
+      "designation" : "Reserved for Manager (Attached with Dir./System)",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SE26"
+    },
+    "SE27" : {
+      "designation" : "Manager/Civil",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Gaurav Mittal",
+      "seatNumber" : "SE27"
+    },
+    "SE3" : {
+      "designation" : "DGM/CS&P",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Ritwik Singhal",
+      "seatNumber" : "SE3"
+    },
+    "SE4" : {
+      "designation" : "DGM/Civil",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Amit Kumar Sinha",
+      "seatNumber" : "SE4"
+    },
+    "SE5" : {
+      "designation" : "DGM/Architect",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Harish Kumar",
+      "seatNumber" : "SE5"
+    },
+    "SE6" : {
+      "designation" : "TA/Arch. & AGM/Arch.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Ms. Pratima Panth & Sh. Mayank",
+      "seatNumber" : "SE6"
+    },
+    "SE7" : {
+      "designation" : "DGM/Arch. & TA/Arch.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Ms. Meetushree & Sh. Suraj",
+      "seatNumber" : "SE7"
+    },
+    "SE8" : {
+      "designation" : "DGM/Planning",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Sushant Sharma",
+      "seatNumber" : "SE8"
+    },
+    "SE9" : {
+      "designation" : "DGM/Planning",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Kubaloy Kundu",
+      "seatNumber" : "SE9"
+    },
+    "SW1" : {
+      "designation" : "Reserved for AM/ARS",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW1"
+    },
+    "SW13" : {
+      "designation" : "Reserved for Planning Cell",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW13"
+    },
+    "SW14" : {
+      "designation" : "Reserved for Planning JFPR",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW14"
+    },
+    "SW15" : {
+      "designation" : "AM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Pankaj Thakur",
+      "seatNumber" : "SW15"
+    },
+    "SW17" : {
+      "designation" : "Manager/Architect",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Amit Kumar",
+      "seatNumber" : "SW17"
+    },
+    "SW18" : {
+      "designation" : "AM/Arch.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Ms. Aparajita Nagpal",
+      "seatNumber" : "SW18"
+    },
+    "SW19" : {
+      "designation" : "Executive/Arch.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Gaurav Upadhyay",
+      "seatNumber" : "SW19"
+    },
+    "SW2" : {
+      "designation" : "TA/SP",
+      "floor" : "SECOND FLOOR",
+      "name" : "Mohd. Aquib",
+      "seatNumber" : "SW2"
+    },
+    "SW20" : {
+      "designation" : "Executive/Arch.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Deepak Gupta",
+      "seatNumber" : "SW20"
+    },
+    "SW21" : {
+      "designation" : "TA/Arch.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Umang Garg",
+      "seatNumber" : "SW21"
+    },
+    "SW22" : {
+      "designation" : "Reserved for Planning Cell",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW22"
+    },
+    "SW23" : {
+      "designation" : "Reserved for Planning Cell",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW23"
+    },
+    "SW24" : {
+      "designation" : "Sr. Exe./Planning",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Shobhit Acharya",
+      "seatNumber" : "SW24"
+    },
+    "SW25" : {
+      "designation" : "Space for Reprographics",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW25"
+    },
+    "SW26" : {
+      "designation" : "Space for Reprographics",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW26"
+    },
+    "SW27" : {
+      "designation" : "TA/Planning",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW27"
+    },
+    "SW28" : {
+      "designation" : "Sr. Exe/Planning",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Shashank Gupta",
+      "seatNumber" : "SW28"
+    },
+    "SW29" : {
+      "designation" : "Executive/Urban & Regional Planner",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Urwashi Baghele",
+      "seatNumber" : "SW29"
+    },
+    "SW3" : {
+      "designation" : "AM/Infra Plg",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Saurabh Srivastava",
+      "seatNumber" : "SW3"
+    },
+    "SW30" : {
+      "designation" : "Reserved for Planning Cell",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW30"
+    },
+    "SW31" : {
+      "designation" : "TA/Civil to CS",
+      "floor" : "SECOND FLOOR",
+      "name" : "Mohd. Zaid Khan",
+      "seatNumber" : "SW31"
+    },
+    "SW32" : {
+      "designation" : "Asst. CS on Contract",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Jatin",
+      "seatNumber" : "SW32"
+    },
+    "SW33" : {
+      "designation" : "GA/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Aashutosh Sharma",
+      "seatNumber" : "SW33"
+    },
+    "SW34" : {
+      "designation" : "Accountant/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Shahbaz",
+      "seatNumber" : "SW34"
+    },
+    "SW35" : {
+      "designation" : "JAA/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Ms. Isha Goel",
+      "seatNumber" : "SW35"
+    },
+    "SW36" : {
+      "designation" : "Account Assist./Fin",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Subham Sharma",
+      "seatNumber" : "SW36"
+    },
+    "SW37" : {
+      "designation" : "Account Assist./Fin",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Bikram Maharaj",
+      "seatNumber" : "SW37"
+    },
+    "SW38" : {
+      "designation" : "Account Assist./Fin",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Abhishek Kumar",
+      "seatNumber" : "SW38"
+    },
+    "SW39" : {
+      "designation" : "AM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Ms. Somya Luthra",
+      "seatNumber" : "SW39"
+    },
+    "SW4" : {
+      "designation" : "Reserved for E&Y",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW4"
+    },
+    "SW40" : {
+      "designation" : "AM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Deepak Joshi",
+      "seatNumber" : "SW40"
+    },
+    "SW41" : {
+      "designation" : "AM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Hitesh Goyal",
+      "seatNumber" : "SW41"
+    },
+    "SW42" : {
+      "designation" : "AM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Sanjay Singh Khangarot",
+      "seatNumber" : "SW42"
+    },
+    "SW43" : {
+      "designation" : "AM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Anurag Bisht",
+      "seatNumber" : "SW43"
+    },
+    "SW44" : {
+      "designation" : "AM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Vaibhav Aggarwal",
+      "seatNumber" : "SW44"
+    },
+    "SW45" : {
+      "designation" : "AM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Amar Satendra",
+      "seatNumber" : "SW45"
+    },
+    "SW46" : {
+      "designation" : "Supporting staff of CVO",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW46"
+    },
+    "SW47" : {
+      "designation" : "Supporting staff of CVO",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW47"
+    },
+    "SW48" : {
+      "designation" : "Reserved",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW48"
+    },
+    "SW49" : {
+      "designation" : "Reserved",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW49"
+    },
+    "SW5" : {
+      "designation" : "Reserved for E&Y",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW5"
+    },
+    "SW50" : {
+      "designation" : "PA",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. James Kurian",
+      "seatNumber" : "SW50"
+    },
+    "SW51" : {
+      "designation" : "Reserved for supporting staff of Dir./Finance",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW51"
+    },
+    "SW52" : {
+      "designation" : "TA",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Kanhaiya Lal Koil",
+      "seatNumber" : "SW52"
+    },
+    "SW53" : {
+      "designation" : "Reserved for supporting staff of Dir./E&RS",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW53"
+    },
+    "SW54" : {
+      "designation" : "PA to Dir./System",
+      "floor" : "SECOND FLOOR",
+      "name" : "Ms. Swati Mohelji",
+      "seatNumber" : "SW54"
+    },
+    "SW55" : {
+      "designation" : "Reserved for supporting staff of Dir./System",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW55"
+    },
+    "SW56" : {
+      "designation" : "AM/Co-ordination",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. K.C.N. Menon",
+      "seatNumber" : "SW56"
+    },
+    "SW57" : {
+      "designation" : "PA",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Daud Akhtar",
+      "seatNumber" : "SW57"
+    },
+    "SW58" : {
+      "designation" : "Reserved for AM/Urban Plg",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW58"
+    },
+    "SW59" : {
+      "designation" : "AM/Fin/",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Ashish Kumar Sharma",
+      "seatNumber" : "SW59"
+    },
+    "SW6" : {
+      "designation" : "Reserved for E&Y",
+      "floor" : "SECOND FLOOR",
+      "name" : "",
+      "seatNumber" : "SW6"
+    },
+    "SW60" : {
+      "designation" : "GA/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Javed Ahmad",
+      "seatNumber" : "SW60"
+    },
+    "SW61" : {
+      "designation" : "AM/Fin.",
+      "floor" : "SECOND FLOOR",
+      "name" : "Sh. Pankaj Chand Thakur",
+      "seatNumber" : "SW61"
+    },
+    "null" : {
+      "designation" : "",
+      "floor" : "Select Floor",
+      "name" : "",
+      "seatNumber" : "null"
+    }
+  }
+}
